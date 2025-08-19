@@ -638,6 +638,7 @@ name=${2}
 version=v${3}
 versionCode=${NEXT_VER_CODE}
 author=Miku
+banner=https://raw.githubusercontent.com/MilimNavaDemonLord/revanced-magisk-module/refs/heads/main/banner.png
 description=${4}" >"${6}/module.prop"
 
 	if [ "$ENABLE_MAGISK_UPDATE" = true ]; then echo "updateJson=${5}" >>"${6}/module.prop"; fi
