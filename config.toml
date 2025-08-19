@@ -10,7 +10,7 @@ remove-rv-integrations-checks = true
 
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
+rv-brand = "RVX"
 
 patches-version = "dev"
 cli-version = "dev"
@@ -18,10 +18,10 @@ cli-version = "dev"
 [YouTube]
 enabled = true
 build-mode = "both"
-included-patches = "'Custom header for YouTube' 'Swipe controls'"
-excluded-patches = "'Alternative thumbnails' 'Custom Shorts action buttons' 'Disable splash animation' 'Enable gradient loading screen' 'Force player buttons background' 'Hide action buttons' 'Hide feed components' 'Hide feed flyout menu' 'Hook download actions' 'Shorts components'"
+# included-patches = "'Custom header for YouTube' 'Swipe controls'"
+# excluded-patches = "'Alternative thumbnails' 'Custom Shorts action buttons' 'Disable splash animation' 'Enable gradient loading screen' 'Force player buttons background' 'Hide action buttons' 'Hide feed components' 'Hide feed flyout menu' 'Hook download actions' 'Shorts components' 'Theme'"
 version = "auto"
-patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon='revancify_red'"
+patcher-args = "-d 'Custom branding icon for YouTube' -OappIcon='revancify_red'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
@@ -29,10 +29,10 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 enabled = true
 build-mode = "both"
 arch = "both"
-included-patches = "'Custom header for YouTube Music' 'Disable music video in album' 'Hide overlay filter' 'Hide player overlay filter'"
-excluded-patches = ""
+# included-patches = "'Custom header for YouTube Music' 'Disable music video in album' 'Hide overlay filter' 'Hide player overlay filter'"
+# excluded-patches = "'Dark theme'"
 version = "auto"
-patcher-args = "-e 'Custom branding icon for YouTube Music' -OappIcon='revancify_red'"
+patcher-args = "-d 'Custom branding icon for YouTube Music' -OappIcon='revancify_red'"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
